@@ -9,10 +9,11 @@ public class App {
 		
 		try 
 		{		
-			str = "Irgend eine Zeichenkette";
+			//str = "Irgend eine Zeichenkette";
+			str = "Hallo";
 			System.out.println("Stringlaenge :" + str.length());
 			
-			ch = str.charAt(0);
+			ch = str.charAt(20);
 			System.out.println("Character :" + ch);	
 		} 
 		catch (StringIndexOutOfBoundsException e) {
